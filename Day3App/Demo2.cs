@@ -11,6 +11,9 @@ namespace Day3App
         public void DoSomthing()
         {
         }
+        public void DoSomthing2()
+        {
+        }
         public void Execute()
         {
         }
