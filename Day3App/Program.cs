@@ -22,6 +22,7 @@ namespace Day3App
 
             int? a = 4;
             ExceptionManagement.Execute(a);
+
         }
 
         private static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
