@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Day3App
 {
-    internal class Demo2
+    internal class Demo3
     {
+        public void Execute(){
+        }
     }
 }
