@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Day3App/obj
+/Day3App/bin/Debug/net6.0
+/EventsDelegates/bin/Debug/net6.0
+/EventsDelegates/obj
+/Exceptions/bin/Debug/net6.0
+/Exceptions/obj
