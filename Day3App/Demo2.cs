@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Day3App
 {
-    internal class Demo4
+    internal class Demo3
     {
         public void DoSomthing()
         {
-
+        }
+        public void Execute()
+        {
         }
     }
 }
