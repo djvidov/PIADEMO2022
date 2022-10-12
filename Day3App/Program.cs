@@ -5,17 +5,13 @@ namespace Day3App
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
-
-            // throw new NotImplementedException();
 
             Notifier notifier = new Notifier(5, "Neata");
             notifier.Notify += Notifier_Notify;
             notifier.Notify += Notifier_Notify2;
-
-
 
             Console.WriteLine("Hello, World!");
             Console.CancelKeyPress += Console_CancelKeyPress;

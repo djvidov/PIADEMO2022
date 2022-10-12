@@ -33,7 +33,7 @@ namespace EventsDelegates
     public class NotifierEventArgs: EventArgs
     {
         public int Seconds { get; set; }
-        public string Message { get; set; }
+        public string Message { get; set; } = string.Empty;
     }
 
 }
